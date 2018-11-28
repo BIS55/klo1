@@ -12,8 +12,10 @@ class ViewController: UIViewController {
 
     @IBAction func helloBtn(_ sender: Any) {
         doAnything()
+        label.text = "Fuffff"
     }
     
+    @IBOutlet var label: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

@@ -12,6 +12,7 @@
 		E27F24B221AE70E500694914 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E27F24B021AE70E500694914 /* Main.storyboard */; };
 		E27F24B421AE70E600694914 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E27F24B321AE70E600694914 /* Assets.xcassets */; };
 		E27F24B721AE70E600694914 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E27F24B521AE70E600694914 /* LaunchScreen.storyboard */; };
+		E27F24BF21AEA40100694914 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27F24BE21AEA40100694914 /* Map.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E27F24B321AE70E600694914 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E27F24B621AE70E600694914 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E27F24B821AE70E600694914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E27F24BE21AEA40100694914 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				E27F24B321AE70E600694914 /* Assets.xcassets */,
 				E27F24B521AE70E600694914 /* LaunchScreen.storyboard */,
 				E27F24B821AE70E600694914 /* Info.plist */,
+				E27F24BE21AEA40100694914 /* Map.swift */,
 			);
 			path = klo1;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E27F24AF21AE70E500694914 /* ViewController.swift in Sources */,
+				E27F24BF21AEA40100694914 /* Map.swift in Sources */,
 				E27F24AD21AE70E500694914 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
