@@ -10,11 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func helloBtn(_ sender: Any) {
+        doAnything()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        print("Shut up")
     }
 
-
+    func doAnything() {
+        print("Hello Frank!!!")
+    }
 }
 
