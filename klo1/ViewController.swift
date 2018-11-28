@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBAction func helloBtn(_ sender: Any) {
         doAnything()
         label.text = "Cool!"
-        
+        label.isEnabled = false
     }
     
     @IBOutlet var label: UILabel!
