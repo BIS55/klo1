@@ -12,7 +12,8 @@ class ViewController: UIViewController {
 
     @IBAction func helloBtn(_ sender: Any) {
         doAnything()
-        label.text = "Fuffff"
+        label.text = "Cool!"
+        
     }
     
     @IBOutlet var label: UILabel!
